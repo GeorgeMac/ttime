@@ -11,7 +11,7 @@ var t = &testing.T{}
 
 func Example() {
 	var (
-		ctx context.Context
+		ctx = context.Background()
 		fn  = func(ctx context.Context) {
 			fmt.Printf("The time is %q", Now(ctx))
 		}
