@@ -23,8 +23,3 @@ func Example() {
 		return time.Date(2020, 3, 16, 16, 55, 0, 0, time.UTC)
 	}))
 }
-
-type MyType struct{}
-
-func (m MyType) PrintNow(ctx context.Context) {
-}
